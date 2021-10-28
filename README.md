@@ -6,8 +6,8 @@ Free Magento2 extension to access weather report by passing city name in rest AP
  -->
 ## Features:
 1. Admin can enable/disable the Extension from backend.
-2. Customer can check weather Reports in Entered City.
-3. Customer Can download the History as a PDF File.
+2. Customer can check weather Reports by entering a City name.
+3. Customer Can download the History in a PDF File.
 
 # Installation Instruction
 
