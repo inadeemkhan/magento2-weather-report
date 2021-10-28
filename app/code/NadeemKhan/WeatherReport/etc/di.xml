@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="NadeemKhan\WeatherReport\Api\ReportRepositoryInterface"
+                type="NadeemKhan\WeatherReport\Model\ReportRepository"/>
+    <preference for="NadeemKhan\WeatherReport\Api\Data\ReportInterface"
+                type="NadeemKhan\WeatherReport\Model\Data\Report"/>
+    <preference for="NadeemKhan\WeatherReport\Api\Data\ReportSearchResultsInterface"
+                type="Magento\Framework\Api\SearchResults"/>
+</config>
